@@ -325,7 +325,12 @@ footer img{
     font-size: 16px;
     padding: 12px 10px;
   }
-
+  #pills-tab li{
+    margin-bottom: 10px !important;
+}
+.text-justify{
+    text-align: justify;
+}
 
 
 
@@ -337,6 +342,16 @@ footer img{
 
 
 @media (max-width:470px){
+    p{
+        font-size: 17px !important;
+    }
+    .owl-carousel img{
+        height: 400px !important;
+    }
+    footer ul li a{
+        font-size: 13px;
+    }
+
     .social li a i{
         color: #098f33;
         background-color: white;
